@@ -1,3 +1,20 @@
+body {
+  margin: 0;
+}
+
 header {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
   background-color: #06151a;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, #17e4b9 0%, #091d24 100%);
+}
+
+section img {
+  max-width: 90%;
 }

@@ -5,10 +5,10 @@ function App() {
     <main>
       <header>
         <img src="/logo.png" alt="" />
-        <section>
-          <img src="/banner.png" alt="" />
-        </section>
       </header>
+      <section>
+        <img src="/banner.png" alt="" />
+      </section>
     </main>
   );
 }
