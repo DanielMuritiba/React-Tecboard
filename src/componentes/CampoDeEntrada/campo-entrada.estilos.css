@@ -13,3 +13,7 @@
 .campo-entrada-form::placeholder {
   color: #4a4949;
 }
+
+input[type="date"]::-webkit-datetime-edit {
+  color: #4a4949;
+}
