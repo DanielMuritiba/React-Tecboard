@@ -4,6 +4,7 @@ import { TituloFormulario } from "../TituloFormulario";
 import { CampoDeFormulario } from "../CampoDeFormulario";
 import { CampoDeEntrada } from "../CampoDeEntrada";
 import { ListaSuspensa } from "../ListaSuspensa";
+import { Botao } from "../Botao";
 
 export function FormularioDeEvento() {
   return (
