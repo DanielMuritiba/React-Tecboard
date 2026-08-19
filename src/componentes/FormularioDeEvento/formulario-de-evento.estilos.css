@@ -14,3 +14,8 @@
   flex-direction: column;
   gap: 16px;
 }
+
+.acoes {
+  display: flex;
+  flex-direction: column;
+}

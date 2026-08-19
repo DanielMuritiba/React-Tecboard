@@ -1,13 +1,18 @@
 import "./lista-suspensa.estilos.css";
 
-export function ListaSuspensa(props) {
+export function ListaSuspensa({ itens }) {
   return (
-    <select className="listaSuspensa" {...props}>
-      <option>Selecione uma opção</option>
-      <option>Macaquito</option>
-      <option>Doguito</option>
-      <option>Gatito</option>
-      <option>Lambari</option>
+    <select className="lista-suspensa-form" defaultValue="">
+      <option disabled value="">
+        Selecione uma opção
+      </option>
+      {itens.map(function (item) {
+        return (
+          <option key={item.id} value={item.id}>
+            {item.nome}
+          </option>
+        );
+      })}
     </select>
   );
 }
