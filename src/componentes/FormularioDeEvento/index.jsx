@@ -16,6 +16,10 @@ export function FormularioDeEvento({ temas }) {
           <CampoDeEntrada type="text" id="nome" placeholder="Summer dev hits" />
         </CampoDeFormulario>
         <CampoDeFormulario>
+          <Label htmlFor="capa">Qual o endereço da imagem de capa?</Label>
+          <CampoDeEntrada type="text" id="capa" placeholder="http://..." />
+        </CampoDeFormulario>
+        <CampoDeFormulario>
           <Label htmlFor="dataEvento">Data do evento</Label>
           <CampoDeEntrada type="date" id="dataEvento" />
         </CampoDeFormulario>
